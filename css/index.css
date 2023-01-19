@@ -1600,6 +1600,7 @@ a {
         position: relative;
         z-index: 100;
         cursor: pointer;
+        background: transparent;
     }
     
     #header .toggle.on {
