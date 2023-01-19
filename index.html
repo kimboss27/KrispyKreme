@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>크리스피 크림 Krispy Kreme</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <h1 class="h_logo">
+                <a href="#">Header logo</a>
+            </h1>
+            <div class="toggle mobile ">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </div>
+            <div class="gnb mobilehide">
+                <ul>
+                    <li>
+                        <a href="#">BRAND</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">스토리</a></li>
+                                <li><a href="#">제휴서비스</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MENU</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">도넛</a></li>
+                                <li><a href="#">음료</a></li>
+                                <li><a href="#">프로즌</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">매장찾기</a></li>
+                                <li><a href="#">창업문의</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">NEWS</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">고객센터</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">DELIVERY</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">딜리버리</a></li>
+                                <li><a href="#">배달매장</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="sub_bg">
+                    <div class="bg">background</div>
+                </div>
+            </div>
+            <div class="tnb mobilehide">
+                <ul>
+                    <li><a href="#">SEARCH</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">JOIN</a></li>
+                </ul>
+            </div>
+            <div class="m_gnb mobile">
+                <div class="top">
+                    <h2>
+                        <a href="#">h_logo</a>
+                    </h2>
+                </div>
+                <div class="search_box">
+                    <form method="post">
+                        <input type="text" class="search" placeholder="검색어를 입력하세요.">
+                        <button type="button" class="search_btn">찾기</button>
+                    </form>
+                </div>
+                <nav class="m_nav">
+                    <ul>
+                        <li>
+                            <a href="#">BRAND</a>
+                            <div class="m_sub">
+                                <ul>
+                                    <li><a href="#">회사소개</a></li>
+                                    <li><a href="#">스토리</a></li>
+                                    <li><a href="#">제휴서비스</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <div class="m_sub">
+                                <ul>
+                                    <li><a href="#">도넛</a></li>
+                                    <li><a href="#">음료</a></li>
+                                    <li><a href="#">프로즌</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <div class="m_sub">
+                                <ul>
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">창업문의</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">NEWS</a>
+                            <div class="m_sub">
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">DELIVERY</a>
+                            <div class="m_sub">
+                                <ul>
+                                    <li><a href="#">딜리버리</a></li>
+                                    <li><a href="#">배달매장</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="bot">
+                        <div><a href="#">
+                            로그인
+                        </a></div>
+                        <div><a href="#">
+                            매장
+                        </a></div>
+                        <div><a href="#">
+                            고객센터
+                        </a></div>
+                        <div><a href="#">
+                            이벤트
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main_slider" class="swiper">
+        <div class="slide_container swiper-wrapper">
+            <div class="slide swiper-slide">
+                <a href="#">
+                    <img src="images/desktop/slidebanner/slidebanner1.jpg" alt="달콤한 1번째, 3번째 수요일" class="mobilehide">
+                    <img src="images/mobile/banner1.jpg" alt="달콤한 1번째, 3번째 수요일" class="mobile">
+                </a>
+            </div>
+            
+            <div class="slide swiper-slide">
+                <a href="#">
+                    <img src="images/desktop/slidebanner/slidebanner2.jpg" alt="HAPPY NEW YEAR MIFFY" class="mobilehide">
+                    <img src="images/mobile/banner2.jpg" alt="HAPPY NEW YEAR MIFFY" class="mobile">
+
+                </a>
+            </div>
+            
+        </div>
+        <div class="mainmenu">
+            <div><a href="#"><img src="images/desktop/banner/mainmenu1.jpg" alt="DONUT"><strong>DONUT</strong></a></div>
+            <div><a href="#"><img src="images/desktop/banner/mainmenu2.jpg" alt="DRINK"><strong>DRINK</strong></a></div>
+            <div><a href="#"><img src="images/desktop/banner/mainmenu3.jpg" alt="COFFE"><strong>COFFE</strong></a></div>
+            <div><a href="#"><img src="images/desktop/banner/mainmenu4.jpg" alt="FROZEN"><strong>FROZEN</strong></a></div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="about">
+            <h2>About Krispy</h2>
+            <div class="info">
+                <div class="info_left">
+                    <div class="imgbox">
+                        <img src="images/desktop/banner/mainstory.jpg" alt="" class="mobile">
+                    </div>
+                    <strong>The Story of Krispy Kreme</strong>
+                    <p>
+                        <span>아시아 국가 중 최초로 한국이 신촌점을 통해 2004년 4월 국내 소비자에게 선보인</span>
+                        <span>크리스피 크림 도넛은 대표제품인 오리지널 글레이즈드 도넛을 비롯하여 에스프레소 커피와</span>
+                        <span>그 외 다양한 음료를 통해 고객의 니즈를 만족시키고 있습니다. 현재 국내 크리스피 크림 도넛은 </span>
+                        <span>전국 100여 개의 매장에서 달콤하고 신선한 도넛을 만들어 고객과 만나고 있습니다.</span>
+                        <span>크리스피 크림 도넛은 당일 생산한 도넛만을 판매하여 신선함과 부드러움을 더했습니다.</span>
+                        <span>입 안 가득 퍼지는 달콤함과 행복한 맛을 담은 오리지널 글레이즈드 더즌을 통해 특별한 순간,</span>
+                        <span>사랑하는 사람과 그 즐거움을 함께 나눌 수 있습니다.</span>
+                    </p>
+                    <p>
+                        <em><span>브랜드명</span>크리스피 크림</em>
+                        <em><span>설립연도</span>2004년 설립</em>
+                    </p>
+                </div>
+                <div class="info_right">
+                    <img src="images/desktop/banner/mainstory.jpg" alt="About us 크리스피 크림 이미지" class="desktop">
+                    <img src="images/tablet/main/about.jpg" alt="About us 크리스피 크림 이미지" class="tablet">
+                </div>
+            </div>
+        </div>
+        <div class="best">
+            <h2>Krispy Kreme Menu</h2>
+            <div class="best_container">
+                <div class="itembox">
+                    <div class="item1">
+                        <img src="images/desktop/banner/ogglazed.png" alt="오리지날 글레이즈드" class="desktop">
+                        <img src="images/tablet/main/ogglazed.png" alt="오리지날 글레이즈드" class="tablet">
+                        <img src="images/mobile/ogglazed.png" alt="오리지날 글레이즈드" class="mobile">
+                        <div class="info">
+                            <strong>오리지널 글레이즈드</strong>
+                            <p class="p1">ORIGINAL GLAZED</p>
+                            <p class="p2">부드럽고 달콤한 크리스피크림의 시그니처 도넛</p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <img src="images/desktop/banner/iceamericano.png" alt="아이스 아메리카노" class="desktop">
+                        <img src="images/tablet/main/iceamericano.png" alt="아이스 아메리카노" class="tablet">
+                        <img src="images/mobile/iceamericano.png" alt="아이스 아메리카노" class="mobile">
+                        <div class="info">
+                            <strong>아이스 아메리카노</strong>
+                            <p class="p1">ORIGINAL GLAZED</p>
+                            <p class="p2">
+                                <span>중후한 바디감과 다크초콜릿의</span>
+                                풍미를 느낄 수 있는 아이스 커피
+                            </p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <img src="images/desktop/banner/icestrawberryfiled.png" alt="아이스크림 프리미엄 스트로베리필드" class="desktop">
+                        <img src="images/tablet/main/icestrawberryfiled.png" alt="아이스크림 프리미엄 스트로베리필드" class="tablet">
+                        <img src="images/mobile/icestrawberryfiled.png" alt="아이스크림 프리미엄 스트로베리필드" class="mobile">
+                        <div class="info">
+                            <strong>아이스크림 프리미엄 스트로베리필드</strong>
+                            <p class="p1">ICECREAM INSIDE PRIMIUM STRAWBERRY FIELD</p>
+                            <p class="p2">
+                                <span>상큼하고 달콤한 스트로베리필링이 듬뿍 담긴 도넛과</span>
+                                부드러운 파스퇴르 아이스크림이 만나 조화로운 디저트
+                            </p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itembox2">
+                    <div class="item1">
+                        <img src="images/desktop/banner/strawberrymilkdonut.png" alt="오리지날 글레이즈드" class="desktop">
+                        <img src="images/tablet/main/strawberrymilkdonut.png" alt="오리지날 글레이즈드" class="tablet">
+                        <img src="images/mobile/strawberrymilkdonut.png" alt="오리지날 글레이즈드" class="mobile">
+                        <div class="info">
+                            <strong>딸기 우유크림 듬뿍 도넛</strong>
+                            <p class="p1">STRAWBERRY MILK DONUT</p>
+                            <p class="p2">부드럽고 달콤한 크리스피크림의 시그니처 도넛</p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <img src="images/desktop/banner/melonsmothies.png" alt="메론 스무디" class="desktop">
+                        <img src="images/tablet/main/melonsmothies.png" alt="메론 스무디" class="tablet">
+                        <img src="images/mobile/melonsmothies.png" alt="메론 스무디" class="mobile">
+                        <div class="info">
+                            <strong>메론 스무디</strong>
+                            <p class="p1">MELON SMOOTHIES</p>
+                            <p class="p2">달콤한 메론의 맛을 부드럽게 즐길 수 있는 스무디</p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <img src="images/desktop/banner/softcorn.png" alt="순수우유 소프트콘" class="desktop">
+                        <img src="images/tablet/main/softcorn.png" alt="순수우유 소프트콘" class="tablet">
+                        <img src="images/mobile/softcorn.png" alt="순수우유 소프트콘" class="mobile">
+                        <div class="info">
+                            <strong>순수우유 소프트콘</strong>
+                            <p class="p1">PURE MILK SOFT CORN</p>
+                            <p class="p2">
+                                신선하고 부드러운 파스퇴르 우유를 그대로<br>
+                                느낄 수 있는 프리미엄 아이스크림콘
+                            </p>
+                            <a href="#">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="next">next</a>
+            <div class="bestbg">
+                <img src="images/desktop/banner/bglogo.png" alt="krispy kreme 이미지" class="desktop">
+                <img src="images/tablet/main/bglogo.png" alt="krispy kreme 이미지" class="tablet">
+            </div>
+            <div class="rotbg">
+                rotbg
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="left">
+                <img src="images/desktop/banner/maindivery1.jpg" alt="delivery 왼쪽 이미지">
+            </div>
+            <div class="right">
+                <img src="images/desktop/banner/maindelivery2.jpg" alt="delivery 오른쪽 이미지">
+                    
+                <div class="text">
+                    <strong>DELIVERY</strong>
+                    <p>
+                        롯데리아, 크리스피 크림, 엔제리너스의<br>
+                        배달 / 주문 / 할인 이벤트를  한번에!
+                    </p>
+                    <a href="#">롯데잇츠 바로가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <h2>Krispy News</h2>
+            <div class="news_wrap">
+                <div class="newslist mobilehide">
+                    <a href="#" class="newsa">
+                        <img src="images/desktop/banner/mainevet1.jpg" alt="happy new year miffy" class="desktop">
+                        <img src="images/tablet/main/event1.jpg" alt="happy new year miffy" class="tablet">
+                        <div class="txt">
+                            <p>
+                                2023년 기다렸어 어서와 오글이들의<br>
+                                새로운 한해는 더욱 HAPPY하길!<br>
+                                해피 미피 도넛 같이 먹고 2023 행복해지자!
+                            </p>
+                        </div>
+                    </a>             
+                </div>
+                <div class="newslist  mobilehide">
+                    <a href="#" class="newsa">
+                        <img src="images/desktop/banner/mainevet2.jpg" alt="christmas block gift set" class="desktop">
+                        <img src="images/tablet/main/event2.jpg" alt="christmas block gift set" class="tablet">
+                        <div class="txt">
+                            <p>
+                                크리스마스 선물 블록 기프트 세트로 부탁해<br>
+                                도넛 플레인 블록 구매시<br>
+                                메리 크리스마스 더즌 1만원 할인!
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="newslist  mobilehide">
+                    <a href="#" class="newsa">
+                        <img src="images/desktop/banner/mainevet3.jpg" alt="minions" class="desktop">
+                        <img src="images/tablet/main/event3.jpg" alt="minions" class="tablet">
+                        <div class="txt">
+                            <p>
+                                오글이들이 가장 좋아하는 색은 뭘까?<br>
+                                크크지기는 노란색<br>
+                                노란색 좋아하는 오글이들 소환!
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="mobilelist mobile">
+                    <div class="list">
+                        <div class="imgbox">
+                            <img src="images/mobile/event1.jpg" alt="happy new year miffy">
+                        </div>
+                        <div class="txt">
+                            <strong>
+                                2023년 1월 신제품 도넛!
+                            </strong>
+                            <p>
+                                <span>2023년 기다렸어 어서와 오글이들의</span>
+                                <span>새로운 한해는 더욱 HAPPY하길!</span>
+                                <span>해피 미피 도넛 같이 먹고 </span>
+                                2023 행복해지자!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="imgbox">
+                            <img src="images/mobile/event2.jpg" alt="christmas block gift set">
+                        </div>
+                        <div class="txt">
+                            <strong>
+                                12월 블록 구매시 1만원 할인!
+                            </strong>
+                            <p>
+                                <span>크리스마스 선물 블록 기프트 세트로</span> 
+                                <span>부탁해 도넛 플레인 블록 구매시</span>
+                                메리 크리스마스 더즌 1만원 할인!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="imgbox">
+                            <img src="images/mobile/event3.jpg" alt="minions">
+                        </div>
+                        <div class="txt">
+                            <strong>
+                                2022년 11월 신제품 도넛!
+                            </strong>
+                            <p>
+                                <span>오글이들이 가장 좋아하는 색은 뭘까?</span>
+                                <span>크크지기는 노란색</span>
+                                노란색 좋아하는 오글이들 소환!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="more">더보기</a>
+        </div>
+        <div class="with">
+            <div class="wrap">
+                <div class="info">
+                    <h2>
+                        <strong>With</strong>
+                        Krispy Kreme
+                    </h2>
+                    <p>
+                        크리스피 크림과 함께 할<br>
+                        <strong>가맹주 점주님</strong>을 모집합니다.
+                    </p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <div class="videobox">
+                    <video src="images/desktop/video/OriginalGlazed.mp4" muted autoplay loop></video>
+                </div>
+            </div>
+            <div class="bg">
+                background
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer_wrap">
+            <div class="top">
+                <h2 class="footer_logo">
+                    <a href="#">footer logo</a>
+                </h2>
+                <div class="sns">
+                    <ul>
+                        <li class="insta"><a href="#">instargram</a></li>
+                        <li class="facebook"><a href="#">facebook</a></li>
+                        <li class="twitter"><a href="#">twtiier</a></li>
+                    </ul>
+                </div>
+                <div class="footer_menu">
+                    <ul>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">영상정보 처리기기 운영 및 관리 방침</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                    </ul>
+                </div>
+                <address>
+                    <p><strong>대표자:</strong> 차우철</p>
+                    <p><strong>본사:</strong>서울특별시 금천구 벚꽃로 104 금천롯데타워</p>
+                    <p><strong>사업자번호:</strong>106-81-23498</p>
+                    <p><strong>고객불편사항:</strong>080-550-0005</p>
+                    <p><strong>일반문의:</strong>02-709-1114</p>
+                </address>
+                <div class="family">
+                    <a href="#">Lotte</a>
+                    <select name="familysite" id="familysite">
+                        <option value="롯데그룹" selected>롯데그룹</option>
+                        <option value="롯데리아">롯데리아</option>
+                        <option value="엔제리너스 커피">엔제리너스 커피</option>
+                        <option value="크리스피 크림 도넛">크리스피 크림 도넛</option>
+                        <option value="파스퇴르">파스퇴르</option>
+                        <option value="롯데제과">롯데제과</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p class="copy">
+                COPYRIGH ⓒ 2013 KRISPY KREAM DONUTS. ALL RIGHTS RESERVED
+            </p>
+        </div>
+    </footer>
+</body>
+<script src="script/index.js"></script>
+</html>
