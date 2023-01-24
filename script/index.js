@@ -61,12 +61,9 @@ $(document).ready(function(){
     /* --- mobile menu --- */
 
     /* --- toggle --- */
-    const menutoggle=document.querySelector('.toggle');
-    const m_gnb=document.querySelector('.m_gnb');
-    menutoggle.addEventListener('click',function(e){
-        e.preventDefault()
-        e.target.classList.toggle('on');
-        m_gnb.classList.toggle('on');
+    $('.toggle').click(function(){
+        $(this).toggleClass('on');
+        $('.m_gnb').toggleClass('on')
     });
 
     $('.m_nav ul > li > a').click(function () {

@@ -1592,14 +1592,10 @@ a {
         height: 33px;
         border-radius: 50%;
         border:1px solid #006941;
-        display: flex !important;
-        justify-content: center;
-        gap: 4px;
-        flex-flow: column nowrap;
-        align-items: center;
         position: relative;
-        z-index: 100;
+        z-index: 10000;
         cursor: pointer;
+        background: transparent;
     }
     
     #header .toggle.on {
@@ -1613,8 +1609,12 @@ a {
         background: #006941;
         transition: all 0.3s;
         border-radius: 10px;
+        margin: 4px auto;
     }
-    
+    .toggle > .sr_only {
+        width: 0; height: 0; font-size: 0; line-height: 0; overflow: hidden;
+        position: absolute; left: -999px; top: -999px; visibility: hidden;
+    }
     #header .toggle.on span {
         background: #fff;
     }
