@@ -74,4 +74,10 @@ $(document).ready(function(){
           $(this).next().slideUp(200);
         };
       });
+
+      /* -- video --*/
+      const video=document.querySelectorAll('video');
+        for(let v=0; v<video.length; v++){
+            video[v].play();
+    }
 });
