@@ -63,7 +63,8 @@ $(document).ready(function(){
     /* --- toggle --- */
     $('.toggle').click(function(){
         $(this).toggleClass('on');
-        $('.m_gnb').toggleClass('on')
+        $('.m_gnb').toggleClass('on');
+        $('html').toggleClass('on')
     });
 
     $('.m_nav ul > li > a').click(function () {

@@ -49,7 +49,9 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
+html.on{
+    overflow-y: hidden;
+}
 body {
     font-size: 16px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -337,6 +339,9 @@ a {
 #content .about .info_left>p span {
     margin-right: 10px;
     font-weight: 500;
+}
+#content .about .info_left>p:first-of-type > span {
+    display: block;
 }
 
 #content .about .info_right {
@@ -1081,7 +1086,7 @@ a {
     #content .about .info_left>p span {
         margin-right: 5px;
     }
-
+  
     #content .about>h2::after {
         width: 300px;
         height: 300px;
@@ -2164,6 +2169,7 @@ a {
     }
     .m_gnb.on {
         left: 0;
+        position: fixed;
     }
     .m_gnb h2 {
         width: 158px;
