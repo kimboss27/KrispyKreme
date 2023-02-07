@@ -398,7 +398,7 @@ a {
     transition: all 0.4s ease;
 }
 
-.best .itembox > div:hover img {
+.best .itembox > div img {
     animation: rot3 2s ease-in-out infinite;
 }
 
